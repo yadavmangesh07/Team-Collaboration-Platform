@@ -190,10 +190,8 @@ The API is built around user registration, login, and protected routes based on 
 - **Headers :**
   ```json
   {
-    "
-    Authorization: Bearer
-    <your_jwt_token_here>"
-    }
+    "Authorization": "Bearer <your_jwt_token_here>"
+  }
     ```
 - **Response :**
 
