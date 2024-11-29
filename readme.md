@@ -146,7 +146,7 @@ The API is built around user registration, login, and protected routes based on 
 - **Response :**
   ```json
   {
-    "message": "Login successful
+    "message": "Login successful"
 
     }
     ```
@@ -164,7 +164,7 @@ The API is built around user registration, login, and protected routes based on 
 - **Headers :**
   ```json
   {
-    "Authorization : Bearer <your_jwt_token_here>
+    "Authorization : Bearer <your_jwt_token_here>"
 
     }
     ```
@@ -193,7 +193,7 @@ The API is built around user registration, login, and protected routes based on 
     "
     Authorization
     : Bearer
-    <your_jwt_token_here>
+    <your_jwt_token_here>"
     }
     ```
 - **Response :**
@@ -221,7 +221,7 @@ The API is built around user registration, login, and protected routes based on 
     "
     Authorization
     : Bearer
-    <your_jwt_token_here>
+    <your_jwt_token_here>"
     }
     ```
 - **Response :**
@@ -276,9 +276,9 @@ The following environment variables are used in this project:
 ---
 ## **Security Considerations**
 
-    - **Password Hashing**: The password is hashed using bcryptjs before being saved to the database to ensure password security.
-    - **JWT Authentication**: JWT is used for authentication, and tokens are sent in the Authorization header in protected routes.
-    - **Environment Variables**: Sensitive data, such as the MongoDB URI and JWT secret key, is stored in the .env file and kept secure.
+  - **Password Hashing**: The password is hashed using bcryptjs before being saved to the database to ensure password security.
+  - **JWT Authentication**: JWT is used for authentication, and tokens are sent in the Authorization header in protected routes.
+  - **Environment Variables**: Sensitive data, such as the MongoDB URI and JWT secret key, is stored in the .env file and kept secure.
 ---
 ## **License**
 
